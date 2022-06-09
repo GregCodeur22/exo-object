@@ -81,13 +81,13 @@ const noteEnglishJeanne =
   regions[0].departement[0].lycees[0].classes[0].students[1].scores[3].note;
 console.log(noteEnglishJeanne);
 
-let average = 0;
+// let average = 0;
 // boucle sur le tableau des étudiant de la classe
 const notesNicolas =
   regions[0].departement[0].lycees[0].classes[0].students[4].scores;
 
-for (let i = 0; i < notesNicolas.length; i++) {
-  average += Math.round((notesNicolas[i].note / notesNicolas.length) * 10) / 10;
-}
+// for (let i = 0; i < notesNicolas.length; i++) {
+//   average += Math.round((notesNicolas[i].note / notesNicolas.length) * 10) / 10;
+// }
 
-console.log(average);
+// console.log(average);
